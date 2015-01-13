@@ -1,6 +1,6 @@
 ﻿namespace Skins
 {
-    partial class Form1
+    partial class Skins
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -1696,7 +1696,7 @@
             this.label144.TabIndex = 148;
             this.label144.Text = "Zilean";
             // 
-            // Form1
+            // Skins
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1849,7 +1849,7 @@
             this.Controls.Add(this.lblAatrox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblAnzeige);
-            this.Name = "Form1";
+            this.Name = "Skins";
             this.Text = "Skin Übersicht - Parker";
             this.ResumeLayout(false);
             this.PerformLayout();

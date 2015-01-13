@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Skins
 {
-    public partial class Form1 : Form
+    public partial class Skins : Form
     {
-        public Form1()
+        public Skins()
         {
             InitializeComponent();
         }

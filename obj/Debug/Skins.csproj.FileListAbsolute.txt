@@ -2,8 +2,8 @@ c:\users\tobias\documents\visual studio 2013\Projects\Skins\Skins\bin\Debug\Skin
 c:\users\tobias\documents\visual studio 2013\Projects\Skins\Skins\bin\Debug\Skins.exe
 c:\users\tobias\documents\visual studio 2013\Projects\Skins\Skins\bin\Debug\Skins.pdb
 c:\users\tobias\documents\visual studio 2013\Projects\Skins\Skins\obj\Debug\Skins.csprojResolveAssemblyReference.cache
-c:\users\tobias\documents\visual studio 2013\Projects\Skins\Skins\obj\Debug\Skins.Form1.resources
 c:\users\tobias\documents\visual studio 2013\Projects\Skins\Skins\obj\Debug\Skins.Properties.Resources.resources
 c:\users\tobias\documents\visual studio 2013\Projects\Skins\Skins\obj\Debug\Skins.csproj.GenerateResource.Cache
 c:\users\tobias\documents\visual studio 2013\Projects\Skins\Skins\obj\Debug\Skins.exe
 c:\users\tobias\documents\visual studio 2013\Projects\Skins\Skins\obj\Debug\Skins.pdb
+C:\Users\Tobias\Documents\Visual Studio 2013\Projects\Skins\Skins\obj\Debug\Skins.Skins.resources
