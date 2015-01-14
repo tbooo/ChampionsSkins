@@ -495,7 +495,7 @@ namespace Skins
             cb = 77;
 
             pa = (ca / 123 * 100);
-            lblStats.Text = "Gz, du hast für " + pa + "%" + "\n" + "aller Champs einen Skin.";
+            lblStats.Text = "GZ, du hast für " + pa + "%" + "\n" + "aller Champs einen Skin.";
         }
 
         private void lblStats_Click(object sender, EventArgs e)
@@ -584,6 +584,11 @@ namespace Skins
             rndSkin = Skin1 + "\r\n" + Skin2 + "\r\n" + Skin3;
             textBox1.Text = rndSkin;
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.katzenfun.de/katzenbilder/suesse-katze-schleckt-pfote.jpg");
         }
     }
 }
