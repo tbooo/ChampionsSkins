@@ -12,9 +12,11 @@ namespace Skins
 {
     public partial class Skins : Form
     {
+        
         public Skins()
         {
             InitializeComponent();
+
         }
 
 
@@ -216,12 +218,12 @@ namespace Skins
 
         private void label59_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Traditional Lee Sin"  +"\r\n"+ "Dragon Fist Lee Sin" + "\r\n"+ "Muay Thai Lee Sin";
+            textBox1.Text = "Traditional Lee Sin" + "\r\n" + "Dragon Fist Lee Sin" + "\r\n" + "Muay Thai Lee Sin";
         }
 
         private void label66_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Glacial Malphite"; 
+            textBox1.Text = "Glacial Malphite";
         }
 
         private void label67_Click(object sender, EventArgs e)
@@ -362,46 +364,46 @@ namespace Skins
 "Victorious Janna" + "\r\n" +
 "Victorious Jarvan IV" + "\r\n" +
 "The Mighty Jax" + "\r\n" +
-"Debonair Jayce" +"\r\n"+
-"Traditional Karma" +"\r\n"+
-"Pre-Void Kassadin" +"\r\n"+
-"High Command Katarina" +"\r\n"+
-"Judgment Kayle" +"\r\n"+
-"Riot Kayle" +"\r\n"+
-"Swamp Master Kennen" +"\r\n"+
-"Arctic Ops Kennen" +"\r\n"+
-"Mecha Kha'Zix" +"\r\n"+
-"Traditional Lee Sin" +"\r\n"+
-"Dragon Fist Lee Sin" +"\r\n"+
-"Muay Thai Lee Sin" +"\r\n"+
-"Glacial Malphite" +"\r\n"+
-"Vizier Malzahar" +"\r\n"+
-"Ionia Master Yi" +"\r\n"+
-"Victorious Morgana" +"\r\n"+
-"Riot K-9 Nasus" +"\r\n"+
-"Snow Bunny Nidalee" +"\r\n"+
-"Leopard Nidalee" +"\r\n"+
-"Nunu Bot" +"\r\n"+
-"Swen Chaos Orianna" +"\r\n"+
-"Full Metal Pantheon" +"\r\n"+
-"Full Metal Rammus" +"\r\n"+
-"Outback Renekton" +"\r\n"+
-"Battle Bunny Riven" +"\r\n"+
-"Rumble in the Jungle" +"\r\n"+
-"Traditional Sejuani" +"\r\n"+
-"Bear Cavalry Sejuani" +"\r\n"+
-"Warlord Shen" +"\r\n"+
-"Darkflame Shyvana" +"\r\n"+
-"Hextech Singed" +"\r\n"+
-"Bilgewater Swain" +"\r\n"+
-"Blood Moon Thresh" +"\r\n"+
-"Riot Girl Tristana" +"\r\n"+
-"Firefighter Tristana" +"\r\n"+
-"Traditional Trundle" +"\r\n"+
-"Butcher Urgot"  +"\r\n"+
+"Debonair Jayce" + "\r\n" +
+"Traditional Karma" + "\r\n" +
+"Pre-Void Kassadin" + "\r\n" +
+"High Command Katarina" + "\r\n" +
+"Judgment Kayle" + "\r\n" +
+"Riot Kayle" + "\r\n" +
+"Swamp Master Kennen" + "\r\n" +
+"Arctic Ops Kennen" + "\r\n" +
+"Mecha Kha'Zix" + "\r\n" +
+"Traditional Lee Sin" + "\r\n" +
+"Dragon Fist Lee Sin" + "\r\n" +
+"Muay Thai Lee Sin" + "\r\n" +
+"Glacial Malphite" + "\r\n" +
+"Vizier Malzahar" + "\r\n" +
+"Ionia Master Yi" + "\r\n" +
+"Victorious Morgana" + "\r\n" +
+"Riot K-9 Nasus" + "\r\n" +
+"Snow Bunny Nidalee" + "\r\n" +
+"Leopard Nidalee" + "\r\n" +
+"Nunu Bot" + "\r\n" +
+"Swen Chaos Orianna" + "\r\n" +
+"Full Metal Pantheon" + "\r\n" +
+"Full Metal Rammus" + "\r\n" +
+"Outback Renekton" + "\r\n" +
+"Battle Bunny Riven" + "\r\n" +
+"Rumble in the Jungle" + "\r\n" +
+"Traditional Sejuani" + "\r\n" +
+"Bear Cavalry Sejuani" + "\r\n" +
+"Warlord Shen" + "\r\n" +
+"Darkflame Shyvana" + "\r\n" +
+"Hextech Singed" + "\r\n" +
+"Bilgewater Swain" + "\r\n" +
+"Blood Moon Thresh" + "\r\n" +
+"Riot Girl Tristana" + "\r\n" +
+"Firefighter Tristana" + "\r\n" +
+"Traditional Trundle" + "\r\n" +
+"Butcher Urgot" + "\r\n" +
 "Hyena Warwick";
 
-            textBox1.Text = "Skins: "  +"\r\n"+  all;
+            textBox1.Text = all;
 
         }
 
@@ -412,13 +414,15 @@ namespace Skins
 
         private void label48_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Dizney ist der Boss!!!!!";
+            System.Diagnostics.Process.Start("http://images6.fanpop.com/image/photos/33100000/dizney-one-direction-33126737-1095-1500.jpg");
         }
 
         private void label135_Click(object sender, EventArgs e)
         {
 
+
         }
+
 
         private void label123_Click(object sender, EventArgs e)
         {
@@ -472,12 +476,123 @@ namespace Skins
 
         private void label143_Click(object sender, EventArgs e)
         {
-
+          
+                
         }
 
         private void label142_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void label111_Click(object sender, EventArgs e)
+        {
+            float ca; // Champions mit Skins
+            int cb; // Champions ohne Skins
+            float pa; //prozentualler Anteil
+
+            ca = 46f; // gesamt Champs 123 Patch 4.21 Rek Sai
+            cb = 77;
+
+            pa = (ca / 123 * 100);
+            lblStats.Text = "Gz, du hast für " + pa + "%" + "\n" + "aller Champs einen Skin.";
+        }
+
+        private void lblStats_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmdRnd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string[] skins = new string[64];
+            skins[0] = "Unchained Alistar";
+            skins[1] = "Sad Robot Amumu";
+            skins[2] = "Noxus Hunter Anivia";
+            skins[3] = "Frostfire Annie";
+            skins[4] = "Amethyst Ashe";
+            skins[5] = "Riot Blitzcrank";
+            skins[6] = "Sheriff Caitlyn";
+            skins[7] = "Death Blossom Elise";
+            skins[0]	=	"Unchained Alistar";
+            skins[1]	=	"Sad Robot Amumu";
+            skins[2]	=	"Noxus Hunter Anivia";
+            skins[3]	=	"Frostfire Annie";
+            skins[4]	=	"Amethyst Ashe";
+            skins[5]	=	"Riot Blitzcrank";
+            skins[6]	=	"Sheriff Caitlyn";
+            skins[7]	=	"Death Blossom Elise";
+            skins[8]	=	"Victorious Elise";
+            skins[9]	=	"Tango Evelynn";
+            skins[10]	=	"Pulsefire Ezreal";
+            skins[11]	=	"Tundra Fizz";
+            skins[12]	=	"Sultan Gangplank";
+            skins[13]	=	"Steel Legion Garen";
+            skins[14]	=	"Riot Graves";
+            skins[15]	=	"Blood Knight Hecarim";
+            skins[16]	=	"Arcade Hecarim";
+            skins[17]	=	"Nightblade Irelia";
+            skins[18]	=	"Aviator Irelia";
+            skins[19]	=	"Infiltrator Irelia";
+            skins[21]	=	"Frostblade Irelia";
+            skins[22]	=	"Victorious Janna";
+            skins[23]	=	"Victorious Jarvan IV";
+            skins[24]	=	"The Mighty Jax";
+            skins[25]	=	"Debonair Jayce";
+            skins[26]	=	"Traditional Karma";
+            skins[27]	=	"Pre-Void Kassadin";
+            skins[28]	=	"High Command Katarina";
+            skins[29]	=	"Judgment Kayle";
+            skins[31]	=	"Riot Kayle";
+            skins[32]	=	"Swamp Master Kennen";
+            skins[33]	=	"Arctic Ops Kennen";
+            skins[34]	=	"Mecha Kha'Zix";
+            skins[35]	=	"Traditional Lee Sin";
+            skins[36]	=	"Dragon Fist Lee Sin";
+            skins[37]	=	"Muay Thai Lee Sin";
+            skins[38]	=	"Glacial Malphite";
+            skins[39]	=	"Vizier Malzahar";
+            skins[40]	=	"Ionia Master Yi";
+            skins[41]	=	"Victorious Morgana";
+            skins[42]	=	"Riot K-9 Nasus";
+            skins[43]	=	"Snow Bunny Nidalee";
+            skins[44]	=	"Leopard Nidalee";
+            skins[45]	=	"Nunu Bot";
+            skins[46]	=	"Swen Chaos Orianna";
+            skins[47]	=	"Full Metal Pantheon";
+            skins[48]	=	"Full Metal Rammus";
+            skins[49]	=	"Outback Renekton";
+            skins[50]	=	"Battle Bunny Riven";
+            skins[51]	=	"Rumble in the Jungle";
+            skins[52]	=	"Traditional Sejuani";
+            skins[53]	=	"Bear Cavalry Sejuani";
+            skins[54]	=	"Warlord Shen";
+            skins[55]	=	"Darkflame Shyvana";
+            skins[56]	=	"Hextech Singed";
+            skins[57]	=	"Bilgewater Swain";
+            skins[58]	=	"Blood Moon Thresh";
+            skins[59]	=	"Riot Girl Tristana";
+            skins[60]	=	"Firefighter Tristana";
+            skins[61]	=	"Traditional Trundle";
+            skins[62]	=	"Butcher Urgot";
+            skins[63] = "Hyena Warwick";
+
+
+            Random rnd = new Random();
+            string Skin1 = (skins[rnd.Next(0, 64)]);
+            string Skin2 = (skins[rnd.Next(0, 64)]);
+            string Skin3 = (skins[rnd.Next(0, 64)]);
+
+            string rndSkin;
+            rndSkin = Skin1 + "\r\n" + Skin2 + "\r\n" + Skin3;
+            textBox1.Text = rndSkin;
+
+        }
     }
 }
+
