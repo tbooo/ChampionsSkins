@@ -213,7 +213,7 @@ namespace Skins
 
         private void label55_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Arctic Ops Kennen";
+            textBox1.Text = "Mecha Kha'Zix";
         }
 
         private void label59_Click(object sender, EventArgs e)
@@ -510,15 +510,7 @@ namespace Skins
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string[] skins = new string[64];
-            skins[0] = "Unchained Alistar";
-            skins[1] = "Sad Robot Amumu";
-            skins[2] = "Noxus Hunter Anivia";
-            skins[3] = "Frostfire Annie";
-            skins[4] = "Amethyst Ashe";
-            skins[5] = "Riot Blitzcrank";
-            skins[6] = "Sheriff Caitlyn";
-            skins[7] = "Death Blossom Elise";
+            string[] skins = new string[62];
             skins[0]	=	"Unchained Alistar";
             skins[1]	=	"Sad Robot Amumu";
             skins[2]	=	"Noxus Hunter Anivia";
@@ -579,14 +571,14 @@ namespace Skins
             skins[59]	=	"Riot Girl Tristana";
             skins[60]	=	"Firefighter Tristana";
             skins[61]	=	"Traditional Trundle";
-            skins[62]	=	"Butcher Urgot";
-            skins[63] = "Hyena Warwick";
+            skins[30]	=	"Butcher Urgot";
+            skins[20]   =   "Hyena Warwick";
 
 
             Random rnd = new Random();
-            string Skin1 = (skins[rnd.Next(0, 64)]);
-            string Skin2 = (skins[rnd.Next(0, 64)]);
-            string Skin3 = (skins[rnd.Next(0, 64)]);
+            string Skin1 = (skins[rnd.Next(0, 62)]);
+            string Skin2 = (skins[rnd.Next(0, 62)]);
+            string Skin3 = (skins[rnd.Next(0, 62)]);
 
             string rndSkin;
             rndSkin = Skin1 + "\r\n" + Skin2 + "\r\n" + Skin3;
