@@ -183,6 +183,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label111 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.label145 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -1825,20 +1826,31 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
-            this.button3.Location = new System.Drawing.Point(456, 620);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(423, 625);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(42, 31);
+            this.button3.Size = new System.Drawing.Size(42, 28);
             this.button3.TabIndex = 155;
             this.button3.Text = "mad?";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label145
+            // 
+            this.label145.AutoSize = true;
+            this.label145.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label145.Location = new System.Drawing.Point(471, 638);
+            this.label145.Name = "label145";
+            this.label145.Size = new System.Drawing.Size(34, 13);
+            this.label145.TabIndex = 156;
+            this.label145.Text = "v. 0.9";
             // 
             // Skins
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(510, 656);
+            this.Controls.Add(this.label145);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label111);
             this.Controls.Add(this.button2);
@@ -2162,6 +2174,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label111;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label145;
     }
 }
 

@@ -148,7 +148,7 @@ namespace Skins
 
         private void label31_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Sultan Gangplank";
+            textBox1.Text = "Sultan Gangplank" + "\r\n" + "Toy Soldier Gankplank";
         }
 
         private void label32_Click(object sender, EventArgs e)
@@ -353,6 +353,7 @@ namespace Skins
 "Pulsefire Ezreal" + "\r\n" +
 "Tundra Fizz" + "\r\n" +
 "Sultan Gangplank" + "\r\n" +
+"Toy Soldier Gankplank" + "\r\n" +
 "Steel Legion Garen" + "\r\n" +
 "Riot Graves" + "\r\n" +
 "Blood Knight Hecarim" + "\r\n" +
@@ -510,7 +511,7 @@ namespace Skins
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string[] skins = new string[62];
+            string[] skins = new string[63];
             skins[0]	=	"Unchained Alistar";
             skins[1]	=	"Sad Robot Amumu";
             skins[2]	=	"Noxus Hunter Anivia";
@@ -573,6 +574,7 @@ namespace Skins
             skins[61]	=	"Traditional Trundle";
             skins[30]	=	"Butcher Urgot";
             skins[20]   =   "Hyena Warwick";
+            skins[62]   =   "Toy Soldier Gankplank";
 
 
             Random rnd = new Random();
@@ -588,7 +590,34 @@ namespace Skins
 
         private void button3_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.katzenfun.de/katzenbilder/suesse-katze-schleckt-pfote.jpg");
+            string[] mad = new string[22];
+            mad[0] = "http://www.katzenfun.de/katzenbilder/suesse-katze-schleckt-pfote.jpg";
+            mad[1] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder_Slider2.jpg";
+            mad[2] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder_Bild1.jpg";
+            mad[3] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder_Slider2-848x490.jpg";
+            mad[4] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder-Set4_Bild8.jpg";
+            mad[5] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder-Set3_Bild1-807x490.jpg";
+            mad[6] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder_Slider21-850x490.jpg";
+            mad[7] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder_Slider1-850x490.jpg";
+            mad[8] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder-Set2_Bild5.jpg";
+            mad[9] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder_Slider4-848x490.jpg";
+            mad[10] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder_Bild2.jpg";
+            mad[11] = "http://www.bilder-katzen.de/wp-content/uploads/2014/01/Katzenbilder_Slider3-848x490.jpg";
+            mad[12] = "http://media.einfachtierisch.de/thumbnail/800/600/media.einfachtierisch.de/images/2013/06/Katzen-Familie-Rasen.jpg";
+            mad[13] = "http://3.bp.blogspot.com/-JBkBDnKyMk4/TuI3uPZ0-rI/AAAAAAAAAJk/F8f-XJdSw5I/s1600/tumblr_lqx12snGxO1r2ayn9o1_500_large.jpg";
+            mad[14] = "http://4.bp.blogspot.com/-WNV1C9GQN2s/TxyAUo9A9TI/AAAAAAAAeIY/2DMV4kyHjzw/s640/38.jpg";
+            mad[15] = "http://www.pepilog.de/images/frauundkatze.jpg";
+            mad[16] = "http://media.einfachtierisch.de/thumbnail/800/600/media.einfachtierisch.de/images/2013/05/Kaetzchen-Zunge-Pfote.jpg";
+            mad[17] = "http://www.hd-gbpics.de/gbbilder/katzen/katzen1.jpg";
+            mad[18] = "http://pix.echtlustig.com/d/1404/suesse-katze-mit-hai-muetze.jpg";
+            mad[19] = "http://www.lustige-galerie.de/katze-und-hund/verschiedene/kaetzchen_mit_kueken.jpg";
+            mad[20] = "http://img.pr0gramm.com/2015/01/09/177a206bd3ccde36.jpg";
+            mad[21] = "http://img.pr0gramm.com/2015/01/08/4e4ded8fcf92c05a.gif";
+
+            Random rndm = new Random();
+            string RMad = (mad[rndm.Next(0, 22)]);
+
+            System.Diagnostics.Process.Start(RMad);
         }
     }
 }
